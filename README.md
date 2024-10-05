@@ -1,4 +1,4 @@
-#Collaborative Map Annotator - Saved Repository
+# Collaborative Map Annotator - Saved Repository
 
 When I was an officer in the U.S. Air Force in the 1990's, I built post-mission analysis systems for the AWACS aircraft and later became a Human Computer Interaction R&D Scientist at the Air Force Research Laboratory in Rome, NY.  While at AFRL, we explored a wide range of HCI technologies and how they could support the Air Force's mission.  
 
@@ -14,8 +14,8 @@ Enjoy!
 <BR>
 <BR>
 <HR>
-<BR>
-# <center>*Collaborative Map Annotator (CMA)*</center>
+
+# *Collaborative Map Annotator (CMA)*
 
 As part of the ADII program, the ADII Team creates applications to demonstrate the capabilities of display or Human Computer Interaction (HCI) technology. From time-to-time, these demonstration programs may be publicly released when it is determined that they have no sensitive information and are of value to the general public.
 
@@ -53,4 +53,4 @@ Using CMA
 Download CMA.tar.Z (488K)
 
 
-<center>![Where Visions Become Virtual Reality](Original_Webpage_Images/slogan.gif)</center>
+![Where Visions Become Virtual Reality](Original_Webpage_Images/slogan.gif)
