@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="CMA.java">
+        <attr name="class_dependency_RMIEngine.ClientInterface" stringvalue="CMA"/>
+        <attr name="class_dependency_java.awt.Frame" stringvalue="CMA"/>
+        <attr name="class_dependency_java.awt.event.ActionListener" stringvalue="CMA"/>
+        <attr name="class_dependency_java.awt.event.WindowAdapter" stringvalue="Wadapt"/>
+        <attr name="class_dependency_java.io.Serializable" stringvalue="CMA"/>
+    </fileobject>
+    <fileobject name="MapPanel.java">
+        <attr name="class_dependency_java.awt.Panel" stringvalue="MapPanel"/>
+        <attr name="class_dependency_java.awt.event.MouseAdapter" stringvalue="MapPanel.Madapt"/>
+        <attr name="class_dependency_java.awt.event.MouseMotionAdapter" stringvalue="MapPanel.MMAdapt"/>
+    </fileobject>
+</attributes>

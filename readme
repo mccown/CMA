@@ -1,0 +1,94 @@
+Collaborative Map Annotator (CMA)
+
+
+As part of the ADII program, the ADII Team creates applications 
+to demonstrate the capabilities of display or Human Computer 
+Interaction (HCI) technology.  From time-to-time, these demonstration 
+programs may be publicly released when it is determined that they 
+have no sensitive information and are of value to the general public. 
+
+The Collaborative Map Annotator (CMA) was created to show that 
+users of the Interactive DataWall could work collaboratively 
+with users of other computer systems whose displays and computer 
+hardware may be different.  The Java programming language was chosen 
+since it facilitates portable source code, rapid prototyping, easy 
+image handling, and language constructs that provide for 
+collaboration.  This code is made public in hopes that it may be 
+useful to those learning and working with Java.  The code may be 
+freely used provided the author and the US Government are 
+credited with having created this work. 
+
+This application is written according to jdk 1.1.2 and has been 
+tested on Sun, SGI, Windows NT, and Windows 95.  We are planning
+to also start testing on HP machines.  
+
+Again, I reiterate, this is an application that is used
+for testing and demonstrations in our research lab.  We are
+continuing to add features and enhancements as needed to fulfill
+our mission.  If you have any questions, comments, or bug 
+fixes, please send them in and they will all be read.  I hope
+that you will enjoy and learn from this software.
+
+Steven H. McCown, Captain, USAF
+Human Computer Interaction Research Scientist
+
+mccowns@rl.af.mil
+http://www.rl.af.mil/proj/adii.html
+mccown@compuserve.com
+http://ourworld.compuserve.com/homepages/mccown/mccown.htm
+
+
+The CMA demonstrates the following features:
+
+	Creating a Java application (versus an applet) 
+	Remote Method Invocation (RMI) 
+	Entering / Leaving a collaborative session 
+	Image loading 
+	Image filtering 
+	Drawing lines (rubber-banding) 
+	Moving objects with the mouse 
+	Sockets for communication with other applications 
+	Persistent objects 
+	Menus 
+	Using packages 
+
+
+Using CMA
+
+1.  Compile CMA using mkall.bat 
+2.  Start the RMIEngine (server) by typing
+	'java RMIEngine.ServerInterfaceImpl '
+3.  Start the CMA (client) by typing
+	'java CMA [host name where the RMIEngine is running]'
+4.  Start the optional voice interface 
+5.  Now, you may create and move force icons on multiple machines
+6.  You may delete force icons from multiple machines (Edit | Delete)
+7.  You may also change the maps by calling File | Load Map
+
+
+Known Limitations
+
+1.  Currently, only images selected from the ./maps directory
+	are able to be loaded.  You can move other images into 
+	this directory (on each client) if you would like to load
+	other images.
+
+2.  The Edit menu (cut, copy, paste) is not implemented.
+
+3.  File saving will be added in a few days.
+
+4.  Clients must be connected to a server in order to run.  (The server
+        may be on your local machine.)  
+
+5.  No online help is available.
+
+6.  The server must have each of the clients' names (fully-qualified)
+	in its' /etc/hosts file in order to make the return 
+	RMI calls.  This seems to be a limitation of jdk1.1.2.  This
+        also seems to be a limitation with the JDK for WinNT.
+
+7.  Some implementations of the jdk have a repaint problem when loading 
+	maps.  If the default map (or after issuing File | Load Map)
+	does not load, resize the window slightly.  This causes
+	a redraw event to be forced and the image should appear.
+
